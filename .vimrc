@@ -15,6 +15,7 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-leiningen'
 Plugin 'sjl/splice.vim'
 Plugin 'vim-scripts/paredit.vim'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/rainbow_parentheses.vim'
@@ -22,6 +23,7 @@ Plugin 'jnwhiteh/vim-golang'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'mattn/gist-vim'
 Plugin 'mattn/webapi-vim'
+Plugin 'vim-ruby/vim-ruby'
 
 call vundle#end()
 
@@ -80,9 +82,6 @@ nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
-
-" Remap escape insert mode
-imap <Tab> <Esc>
 
 set splitbelow
 set splitright
